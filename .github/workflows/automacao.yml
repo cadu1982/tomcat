@@ -1,0 +1,26 @@
+name: Run 
+
+oon:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+
+      # - name: Checkout
+      #   uses: actions/checkout@v3.0.0
+
+      - name: Command Shel
+        run: |
+          ls
+          pwd
+          
+
+      # - name: Script to Set the Master Branch Policies
+      #   run: |
+      #     chmod +x ./scripts/backup.sh
+      #     ./scripts/script_set_policies.sh
