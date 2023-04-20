@@ -14,8 +14,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.0.0
 
-      
-      - name: Add file .war
+      - name: Backup file .war
         run: |
-          chmod +x ./scripts/add.sh
-          ./scripts/add.sh
+          chmod +x ./scripts/backup.sh
+          ./scripts/backup.sh
+
+      # - name: Add file .war
+      #   run: |
+      #     chmod +x ./scripts/add.sh
+      #     ./scripts/add.sh
