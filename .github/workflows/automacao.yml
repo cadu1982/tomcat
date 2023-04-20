@@ -16,6 +16,7 @@ jobs:
 
       - name: Command Shel
         run: |
+          cat /opt/tomcat/latest/README.md
           ls
           pwd
           touch teste.txt
