@@ -1,6 +1,6 @@
 name: Run 
 
-oon:
+on:
   workflow_dispatch:
   push:
     branches:
