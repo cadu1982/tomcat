@@ -18,6 +18,7 @@ jobs:
         run: |
           ls
           pwd
+          touch teste.txt
           
 
       # - name: Script to Set the Master Branch Policies
