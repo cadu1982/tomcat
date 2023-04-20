@@ -11,18 +11,11 @@ jobs:
     runs-on: [self-hosted, tomcat]
     steps:
 
-      # - name: Checkout
-      #   uses: actions/checkout@v3.0.0
+      - name: Checkout
+        uses: actions/checkout@v3.0.0
 
-      - name: Command Shel
+      
+      - name: Add file .war
         run: |
-          cat /opt/tomcat/latest/README.md
-          ls
-          pwd
-          touch teste.txt
-          
-
-      # - name: Script to Set the Master Branch Policies
-      #   run: |
-      #     chmod +x ./scripts/backup.sh
-      #     ./scripts/script_set_policies.sh
+          chmod +x ./scripts/add.sh
+          ./scripts/add.sh
