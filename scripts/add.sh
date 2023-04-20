@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo su <<HERE
-cd 
+cd /
 ls
 pwd
 HERE
