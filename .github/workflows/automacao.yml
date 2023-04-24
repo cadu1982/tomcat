@@ -21,7 +21,8 @@ jobs:
 
       - name: Undeploy file .war
         run: |
-          ./scripts/undeploy.sh
+          chmod +x ./scripts/undeploy.py
+          ./scripts/undeploy.py
 
       # - name: Add file .war
       #   run: |
