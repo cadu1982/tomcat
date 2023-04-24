@@ -19,10 +19,10 @@ jobs:
       #     chmod +x ./scripts/backup.sh
       #     ./scripts/backup.sh
 
-      # - name: Undeploy file .war
-      #   run: |
-      #     chmod +x ./scripts/undeploy.py
-      #     ./scripts/undeploy.py
+      - name: Undeploy file .war
+        run: |
+          chmod +x ./scripts/undeploy.py
+          ./scripts/undeploy.py
 
       - name: Change file context.xml
         run: |
