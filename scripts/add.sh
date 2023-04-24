@@ -1,10 +1,6 @@
 #!/bin/bash
 
 sudo su <<HERE
-ls
-pwd
-cd /
-ls
-pwd
+cp home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/*.war /opt/tomcat/latest/webapps/
 HERE
-# cp war/*.war /opt/tomcat/latest/webapps/
+
