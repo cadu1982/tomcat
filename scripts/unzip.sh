@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo su <<HERE
-cp /home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/hello-world.war war/
+cp /home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/hello-world.war /war/
 cd /
 cp backup/*.war work/
 unzip /work/*.war "META-INF/*" -d "/work/" 
