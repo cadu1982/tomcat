@@ -29,6 +29,7 @@ jobs:
           chmod +x ./scripts/unzip.sh
           ./scripts/unzip.sh
 
+
       # - name: Deploy new file.war
       #   run: |
       #     chmod +x ./scripts/add.sh
