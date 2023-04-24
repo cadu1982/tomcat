@@ -1,19 +1,17 @@
 #!/bin/bash
 
 sudo su <<HERE
+cp /home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/hello-world.war war/
 cd /
 cp backup/*.war work/
 unzip /work/*.war "META-INF/*" -d "/work/" 
-unzip /home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/hello-world.war "META-INF/*" -d "/home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/"
-cp /work/META-INF/context.xml home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/META-INF
-cd home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/
+unzip /war/*.war "META-INF/*" -d "/war/"
+cp /work/META-INF/context.xml /war/META-INF
+cd war
 zip -r -u hello-world.war META-INF
 HERE
 
 
-# cp /work/META-INF/context.xml home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/META-INF
-# cd home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/
-# zip -r -u hello-world.war META-INF
 
 
 
