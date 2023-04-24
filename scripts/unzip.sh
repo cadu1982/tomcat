@@ -10,7 +10,6 @@ rm -r /home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war
 HERE
 
 
-
 # cp /work/META-INF/context.xml home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/META-INF
 # cd home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/
 # zip -r -u hello-world.war META-INF
