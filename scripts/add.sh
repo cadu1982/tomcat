@@ -1,7 +1,6 @@
 #!/bin/bash
 
 sudo su <<HERE
-cp home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/*.war /opt/tomcat/latest/webapps/
-rm -r /home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war
+cp /war/*.war /opt/tomcat/latest/webapps/
 HERE
 
