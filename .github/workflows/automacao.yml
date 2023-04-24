@@ -19,12 +19,12 @@ jobs:
       #     chmod +x ./scripts/backup.sh
       #     ./scripts/backup.sh
 
-      - name: Undeploy file .war
-        run: |
-          chmod +x ./scripts/undeploy.py
-          ./scripts/undeploy.py
-
-      # - name: Add file .war
+      # - name: Undeploy file .war
       #   run: |
-      #     chmod +x ./scripts/add.sh
-      #     ./scripts/add.sh
+      #     chmod +x ./scripts/undeploy.py
+      #     ./scripts/undeploy.py
+
+      - name: Add file .war
+        run: |
+          chmod +x ./scripts/add.sh
+          ./scripts/add.sh

@@ -1,6 +1,8 @@
 #!/bin/bash
 
 sudo su <<HERE
+ls
+pwd
 cd /
 ls
 pwd
