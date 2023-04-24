@@ -24,17 +24,17 @@ jobs:
       #     chmod +x ./scripts/undeploy.py
       #     ./scripts/undeploy.py
 
-      # - name: Change file context.xml
-      #   run: |
-      #     chmod +x ./scripts/unzip.sh
-      #     ./scripts/unzip.sh
+      - name: Change file context.xml
+        run: |
+          chmod +x ./scripts/unzip.sh
+          ./scripts/unzip.sh
 
       # - name: Deploy new file.war
       #   run: |
       #     chmod +x ./scripts/add.sh
       #     ./scripts/add.sh
       
-      - name: Clear Dir
-        run: |
-          chmod +x ./scripts/clear.sh
-          ./scripts/clear.sh
+      # - name: Clear Dir
+      #   run: |
+      #     chmod +x ./scripts/clear.sh
+      #     ./scripts/clear.sh
