@@ -3,7 +3,7 @@
 sudo su <<HERE
 cd /
 cp backup/*.war work/
-unzip /work/*.war "META-INF/*" -d "/war/" 
+unzip /work/*.war "META-INF/*" -d "/work/" 
 HERE
 
 
