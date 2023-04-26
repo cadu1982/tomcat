@@ -34,7 +34,7 @@ jobs:
           chmod +x ./scripts/add.sh
           ./scripts/add.sh
       
-      # - name: Clear Dir
-      #   run: |
-      #     chmod +x ./scripts/clear.sh
-      #     ./scripts/clear.sh
+      - name: Clear Dir
+        run: |
+          chmod +x ./scripts/clear.sh
+          ./scripts/clear.sh
