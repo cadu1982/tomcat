@@ -8,7 +8,7 @@ unzip /work/*.war "META-INF/*" -d "/work/"
 unzip /war/*.war -d "/war/"
 mv /work/META-INF/context.xml /war/META-INF/
 cd war
-zip -u hello-world.war META-INF/
+# zip -u hello-world.war META-INF/
 HERE
 
 
