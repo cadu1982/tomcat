@@ -7,8 +7,10 @@ cp backup/*.war work/
 unzip /work/*.war "META-INF/*" -d "/work/" 
 unzip /war/*.war -d "/war/"
 mv /work/META-INF/context.xml /war/META-INF/
+cat /war/META-INF/context.xml
 cd war
-zip -r -u hello-world.war META-INF/context.xml
+ls
+zip -u hello-world.war META-INF/context.xml
 HERE
 
 

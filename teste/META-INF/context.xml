@@ -1,0 +1,16 @@
+<Context cookies="true" crossContext="true" debug="0"  path="/portal2CP" reloadable="false" antiJARLocking="false" antiResourceLocking="false">
+<Transaction 
+          jotm.timeout="360"
+          factory="br.com.autbank.jndi.UserTransactionFactory"/>
+
+<Resource auth="Application" 
+          description="ALTERADO COM SUCESSO!!!!!" 
+          name="jdbc/CA" 
+          scope="Shareable" 
+          type="javax.sql.DataSource" 
+          factory="br.com.autbank.jndi.DataSourceFactory" 
+          url="jdbc:jtds:sqlserver://140.0.254.20/AB_CONTROLE;useCursors=true;sendStringParametersAsUnicode=false;wsid=portal2CP" 
+          driverClassName="net.sourceforge.jtds.jdbc.Driver" 
+          checkLevelObject="2" 
+          maxSize="50" />
+</Context>
