@@ -7,7 +7,7 @@ conn_str = (
     "Driver={ODBC Driver 18 for SQL Server};"
     "Server=127.0.0.1;"
     "PORT=1433;"
-    "UID=sa;"
+    "UID=SA;"
     "PWD=Tomcat123;"
     "TrustServerCertificate=yes;"
 )
@@ -37,7 +37,7 @@ try:
         if cursor.rowcount > 0:
             print('O script retornou resultados. Executando próximo script...')
         else:
-            print('O script não retornou resultados. Parando execução dos scripts...')
+            print(f'O script {script_name} não retornou resultados. Parando execução dos scripts...')
             break
 
     # Fecha a conexão
