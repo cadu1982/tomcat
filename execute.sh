@@ -28,6 +28,8 @@ do
   fi
 done
 
+rm -r scripts.txt
+
 
 
 

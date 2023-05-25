@@ -1,7 +1,7 @@
 USE BancoDeDadosTomCat;
-GO in
+GO
 
-CREATE TABLE TB2222 (
+CREATE TABLE TB_0202 (
     ID INT IDENTITY(1,1) PRIMARY KEY,
     Nome VARCHAR(50),
     Sobrenome VARCHAR(50),
