@@ -1,0 +1,16 @@
+name: Run 
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: teste ping
+        run: ping 186.249.143.57
+
