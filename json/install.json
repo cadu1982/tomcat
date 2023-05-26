@@ -1,11 +1,10 @@
 {
-    "url": "http://ec2-34-235-130-176.compute-1.amazonaws.com/BCO_CP_M9_20230404_A.zip",
+    "url": "http://ec2-54-210-208-31.compute-1.amazonaws.com/BCO_CP_M9_20230404_A.zip",
     "warfile": "teste.war",
     "sqlfiles": [
-        "script4.sql",
-        "script1.sql",
-        "script3.sql",
-        "script2.sql"
+        "sql1.sql",
+        "sql2.sql",
+        "sql3.sql"
     ],
-    "date": "2023-05-18T20:35:12.662Z"
+    "date": "2023-05-26T14:23:17.301Z"
 }
