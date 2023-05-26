@@ -12,6 +12,7 @@ dados_conexao = (
     "TrustServerCertificate=yes;"
 )
 
+
 connection = pyodbc.connect(dados_conexao)
 print("Conexão Bem Sucedida!")
 
