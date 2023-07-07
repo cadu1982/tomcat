@@ -29,6 +29,11 @@ jobs:
           chmod +x ./scripts/unzip.sh
           ./scripts/unzip.sh
 
+      - name: Run scripts in Mssql-server
+        run: |
+          chmod +x ./scripts/sql_run_script.sh
+          ./scripts/sql_run_script.sh
+
       - name: Deploy new file.war
         run: |
           chmod +x ./scripts/add.sh
