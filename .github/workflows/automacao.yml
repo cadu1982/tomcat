@@ -18,6 +18,7 @@ jobs:
         run: |
           whoami
           pwd
+          ls
       
       # - name: Backup file .war
       #   run: |
