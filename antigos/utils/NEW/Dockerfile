@@ -1,3 +1,3 @@
 FROM nginx
 
-COPY ./files /usr/share/nginx/html
+COPY new.zip /usr/share/nginx/html
