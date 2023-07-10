@@ -16,30 +16,35 @@ jobs:
       
       - name: Backup file .war
         run: |
-          chmod +x ./scripts/backup.sh
-          ./scripts/backup.sh
-
-      - name: Undeploy file .war
-        run: |
-          chmod +x ./scripts/undeploy.py
-          ./scripts/undeploy.py
-
-      - name: Change file context.xml
-        run: |
-          chmod +x ./scripts/unzip.sh
-          ./scripts/unzip.sh
-
-      - name: Run scripts in Mssql-server
-        run: |
-          chmod +x ./scripts/sql_run_script.sh
-          ./scripts/sql_run_script.sh
-
-      - name: Deploy new file.war
-        run: |
-          chmod +x ./scripts/add.sh
-          ./scripts/add.sh
+          ls -lha
+          pwd
       
-      - name: Clear Dir
-        run: |
-          chmod +x ./scripts/clear.sh
-          ./scripts/clear.sh
+      # - name: Backup file .war
+      #   run: |
+      #     chmod +x ./scripts/backup.sh
+      #     ./scripts/backup.sh
+
+      # - name: Undeploy file .war
+      #   run: |
+      #     chmod +x ./scripts/undeploy.py
+      #     ./scripts/undeploy.py
+
+      # - name: Change file context.xml
+      #   run: |
+      #     chmod +x ./scripts/unzip.sh
+      #     ./scripts/unzip.sh
+
+      # - name: Run scripts in Mssql-server
+      #   run: |
+      #     chmod +x ./scripts/sql_run_script.sh
+      #     ./scripts/sql_run_script.sh
+
+      # - name: Deploy new file.war
+      #   run: |
+      #     chmod +x ./scripts/add.sh
+      #     ./scripts/add.sh
+      
+      # - name: Clear Dir
+      #   run: |
+      #     chmod +x ./scripts/clear.sh
+      #     ./scripts/clear.sh
