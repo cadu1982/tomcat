@@ -1,0 +1,11 @@
+{
+    "url": "http://localhost:8081/new.zip",
+    "warfile": "hello-world.war",
+    "sqlfiles": [
+        "script4.sql",
+        "script1.sql",
+        "script2.sql",
+        "script3.sql"
+    ],
+    "date": "2023-07-10T21:17:43.351Z"
+}
