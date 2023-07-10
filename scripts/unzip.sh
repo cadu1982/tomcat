@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 cp /home/ubuntu/actions-runner/tomcat/tomcat/tomcat/war/hello-world.war /war/
 cd /
 cp backup/*.war work/
