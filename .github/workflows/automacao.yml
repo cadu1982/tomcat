@@ -14,10 +14,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.0.0
       
-      - name: Backup file .war
-        run: |
-          chmod +x ./scripts/backup.sh
-          ./scripts/backup.sh
+      # - name: Backup file .war
+      #   run: |
+      #     chmod +x ./scripts/backup.sh
+      #     ./scripts/backup.sh
 
       - name: Undeploy file .war
         run: |
