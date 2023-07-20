@@ -8,4 +8,4 @@ script2.sql
 script3.sql
 script4.sql
 hello-world.war
-
+http://localhost:8081/new.zip

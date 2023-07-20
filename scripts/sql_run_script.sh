@@ -18,7 +18,7 @@ echo "$scripst" > scripts.txt
 for script in $(cat scripts.txt)
 do
   echo "Executando script: $script"
-  sqlcmd -S $servidor -U $nome_usuario -P $senha -C -i ./sql/$script -b
+  sqlcmd -S $servidor -U $nome_usuario -P $senha -C -i ./sql/$script -b -k
 
   # Verificar o código de saída do sqlcmd
   codigo_saida=$?
